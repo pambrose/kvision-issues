@@ -1,4 +1,4 @@
-package test.com.example.doubleevent
+package test.com.example
 
 import io.kvision.test.SimpleSpec
 import kotlin.test.Test

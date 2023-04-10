@@ -5,4 +5,4 @@ pluginManagement {
     mavenLocal()
   }
 }
-rootProject.name = "doubleevent"
+rootProject.name = "singlefield"
