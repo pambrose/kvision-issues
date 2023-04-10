@@ -1,7 +1,8 @@
 # KVision Issue with Single Field Forms
 
-Single field forms are not working properly. The *onEvent{}* for *keydown* is not being called and the
-page is reloaded instead.
+Single field forms are not working properly. If a form has more than one field, the
+*onEvent{}* for *keydown* is called as expected. However, if a form has only one field,
+the *onEvent{}* for *keydown* is not called and the page is instead reloaded.
 
 ## Steps to reproduce:
 
